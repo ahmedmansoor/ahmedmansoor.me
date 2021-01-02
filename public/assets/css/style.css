@@ -227,7 +227,7 @@ h6 {
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
-  left: 15px;
+  right: 15px;
   top: 15px;
   z-index: 9998;
   border: 0;
@@ -1160,14 +1160,10 @@ section {
   }
 }
 
-.err404 {
-  width: 70%;
-  padding-left: 15rem;
-}
-
 .err404cover {
-  background-color: #f2f2f2;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fff;
   margin: 0;
-  align-items: center;
-  justify-content: center;
 }
